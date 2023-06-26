@@ -20,6 +20,7 @@ To use this project, clone the repository and follow the steps below:
 4. Deploy the applications to the AKS cluster using the `deploy-to-aks.sh` script.
 
 Note: Ensure that you have the necessary permissions and resources available on Azure before proceeding.
+Note: You can adjust and use the cleanup-azure script to free any resource created while working with this setup.
 
 ## Technologies Used
 
@@ -32,6 +33,8 @@ This project uses a variety of technologies and tools:
 - **Azure Key Vault**: Used to manage and access secrets and keys securely.
 - **Maven**: Used to manage the Java dependencies in the data processor service.
 - **Jenkins**: Used for CI/CD
+- **Apache Kafka**: Used for data streaming and building real-time data processing pipelines.
+- **Apache Flink**: Used as the stream processing framework for data processing and analysis.
 
 ## License
 
