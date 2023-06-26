@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: data-producer-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: data-producer
+  template:
+    metadata:
+      labels:
+        app: data-producer
+    spec:
+      containers:
+      - name: data-producer
+        image: <image-location/data-producer:tag>
+        ports:
+        - containerPort: 8080
