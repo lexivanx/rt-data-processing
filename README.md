@@ -1,6 +1,6 @@
 # Real-time Data Processing on AKS
 
-This repository contains a real-time data processing application deployed on Azure Kubernetes Service (AKS).
+Real-time data processing system using Apache Kafka, Apache Flink, and AKS.
 
 ## Project Structure
 
