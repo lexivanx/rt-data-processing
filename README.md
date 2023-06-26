@@ -21,6 +21,18 @@ To use this project, clone the repository and follow the steps below:
 
 Note: Ensure that you have the necessary permissions and resources available on Azure before proceeding.
 
+## Technologies Used
+
+This project uses a variety of technologies and tools:
+
+- **Docker**: Used to containerize the services.
+- **Azure Kubernetes Service (AKS)**: Used as the Kubernetes platform to orchestrate the containers.
+- **Azure Container Registry (ACR)**: Used to store the Docker images.
+- **Azure CLI**: Used to interact with Azure resources.
+- **Azure Key Vault**: Used to manage and access secrets and keys securely.
+- **Maven**: Used to manage the Java dependencies in the data processor service.
+- **Jenkins**: Used for CI/CD
+
 ## License
 
 This project is licensed under the terms of the MIT license.
