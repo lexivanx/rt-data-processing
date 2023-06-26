@@ -19,8 +19,10 @@ To use this project, clone the repository and follow the steps below:
 3. Create the AKS cluster using the `create-aks-cluster.sh` script.
 4. Deploy the applications to the AKS cluster using the `deploy-to-aks.sh` script.
 
-Note: Ensure that you have the necessary permissions and resources available on Azure before proceeding.
-Note: You can adjust and use the cleanup-azure script to free any resource created while working with this setup.
+Notes
+- For building the data-processor Docker image with a specific .jar use `docker build --build-arg JAR_FILE=fliknapp-1.X.jar -t myflinkapp .`
+- Ensure that you have the necessary permissions and resources available on Azure before proceeding.
+- You can adjust and use the cleanup-azure script to free any resource created while working with this setup.
 
 ## Technologies Used
 
